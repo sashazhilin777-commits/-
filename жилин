@@ -15,3 +15,19 @@ git add calculator.py
 # Или чтобы добавить все файлы:
 # git add .
 git commit -m "Добавлен базовый функционал калькулятора (сложение, вычитание)"
+# calculator.py (Версия 2.0)
+def add(a, b):
+    return a + b
+
+def subtract(a, b):
+    return a - b
+
+# Новая функция!
+def multiply(a, b):
+    return a * b
+
+if __name__ == "__main__":
+    print("Добро пожаловать в простой калькулятор!")
+    print("Теперь с умножением!") # Новая строка
+git add calculator.py
+git commit -m "Добавлена функция умножения"
