@@ -1,3 +1,17 @@
 mkdir my_test_project
 cd my_test_project
 git init
+# calculator.py (Версия 1.0)
+def add(a, b):
+    return a + b
+
+def subtract(a, b):
+    return a - b
+
+if __name__ == "__main__":
+    print("Добро пожаловать в простой калькулятор!")
+git status
+git add calculator.py
+# Или чтобы добавить все файлы:
+# git add .
+git commit -m "Добавлен базовый функционал калькулятора (сложение, вычитание)"
